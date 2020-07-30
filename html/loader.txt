@@ -1,0 +1,3 @@
+1 https://giphy.com/explore/loading(gif images)
+2 https://projects.lukehaas.me/css-loaders/
+3 https://medium.muz.li/top-30-most-captivating-preloaders-for-your-website-95ed1beff99d

@@ -21,10 +21,11 @@ const server = http.createServer( (req,res)=>{
 	let path = './html';
 	let url = req.url;
 
-	if (url == '/') path += '/test.html';
+	if (url == '/') url = '/getAllFilesName';
 	else {
-		if (url.includes('.html')) path += url;
-		else path += url + '.html';
+		// if (url.includes('.html')) path += url;
+		// else path += url + '.html';
+		path += url;
 	}	
 	console.log('path : ',path);
 	if(url.includes('getAllFilesName')) {
